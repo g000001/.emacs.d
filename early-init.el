@@ -48,3 +48,6 @@
 ;DASH_DIR=/l/src/rw/dash.el TRANSIENT_DIR=/l/src/rw/transient/lisp WITH_EDITOR_DIR=/l/src/rw/with-editor LIBGIT_DIR=/l/src/rw/libegit2 
 
 ;; M-x package-refresh-contents RET
+
+
+(require 'private)
