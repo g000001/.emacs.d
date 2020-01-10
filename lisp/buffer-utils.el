@@ -10,7 +10,7 @@
         (file-name-list '()))
     ;; 自分自身は必ずみつかるので、listの内容が2つ以上なら友達をソートして返す。
     (when (cdr list)
-      (while (not (endp list))
+      (while (not (cl-endp list))
         (let ((file (car list)))
           (or (backup-file-name-p file)
               (push file file-name-list)))
